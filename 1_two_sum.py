@@ -11,6 +11,6 @@ class Solution:
 
 sum_object = Solution()
 n = [8,-3,9]
-t = 17
+t = 5
 list_num = sum_object.twoSum(n,t)
 print(list_num)
