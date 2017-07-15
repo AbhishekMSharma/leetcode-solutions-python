@@ -10,7 +10,7 @@ class Solution:
                 dict_num[target-numbers[i]]=i
 
 sum_object = Solution()
-n = [8,-3,4]
+n = [8,-3,9]
 t = 6
 list_num = sum_object.twoSum(n,t)
 print(list_num)
