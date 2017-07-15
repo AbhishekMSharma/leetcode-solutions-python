@@ -11,5 +11,5 @@ class Solution:
 
 
 s = Solution()
-res = s.findWords(["Hello", "Alaska", "Dad", "Peace"])
+res = s.findWords(["Today", "Alaska", "Dad", "Peace"])
 print(res)
