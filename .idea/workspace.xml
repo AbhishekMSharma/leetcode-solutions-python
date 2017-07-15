@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcceda9e-8bce-4864-a864-aba94a5600ab" name="Default" comment="Renamed 575">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../leetcode-solutions-python/575_distribute_candies_WIP.py" afterPath="" />
+    <list default="true" id="dcceda9e-8bce-4864-a864-aba94a5600ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../leetcode-solutions-python/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../leetcode-solutions-python/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -395,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500133345398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added program numbers">
+      <created>1500141742483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500141742483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -426,7 +432,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Renamed 575" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed 575" />
+    <MESSAGE value="Added program numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added program numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
