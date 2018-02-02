@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcceda9e-8bce-4864-a864-aba94a5600ab" name="Default" comment="Updated problem 1's example">
+    <list default="true" id="dcceda9e-8bce-4864-a864-aba94a5600ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../leetcode-solutions-python/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../leetcode-solutions-python/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../leetcode-solutions-python/500_keyboard_row.py" afterPath="$PROJECT_DIR$/../leetcode-solutions-python/500_keyboard_row.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -437,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500142700820</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated problem 500's example">
+      <created>1500142937734</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1500142937734</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -471,7 +477,8 @@
     <MESSAGE value="Renamed 575" />
     <MESSAGE value="Added program numbers" />
     <MESSAGE value="Updated problem 1's example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated problem 1's example" />
+    <MESSAGE value="Updated problem 500's example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated problem 500's example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
