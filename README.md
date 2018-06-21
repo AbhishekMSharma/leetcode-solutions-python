@@ -1,5 +1,5 @@
 ### leetcode-solutions-python
-Solutions for LeetCode challenges in Python
+Solutions for LeetCode challenges in Python.
 
 ### What is LeetCode?
 LeetCode is a website having nearly 650 technical coding challenges. 
