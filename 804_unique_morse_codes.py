@@ -9,4 +9,4 @@ class Solution(object):
 
 
 s  = Solution()
-print(s.uniqueMorseRepresentations(["gin", "zen", "gig", "msg", "fiv"]))
+print(s.uniqueMorseRepresentations(["gin", "zen", "gig", "msg", "five"]))
