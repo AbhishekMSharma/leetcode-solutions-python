@@ -31,4 +31,4 @@ class Solution:
 
 
 s = Solution()
-print(s.accountsMerge([["John", "johnsmith@mail.com", "john00@mail.com", "j@mail.com"], ["John", "johnnybravo@mail.com","j@mail.com", "j@mail.com"], ["John", "johnsmith@mail.com", "john_newyork@mail.com", "j@mail.com"], ["Mary", "mary@mail.com"]]))
+print(s.accountsMerge([["John", "johnsmith@mail.com", "john00@mail.com", "ja@mail.com"], ["John", "johnnybravo@mail.com","j@mail.com", "j@mail.com"], ["John", "johnsmith@mail.com", "john_newyork@mail.com", "j@mail.com"], ["Mary", "mary@mail.com"]]))
