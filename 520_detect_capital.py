@@ -4,7 +4,11 @@ class Solution:
         :type word: str
         :rtype: bool
         """
-        return True if max([ord(c) for c in word]) < 91 else False
+        if len(word) == 1: return True
+        if word.upper() == word: return True
+        if word.lower() == word: return True
+        if 64 < ord(word[0]) < 91 and all(96 < ord(c) < 123 for c in word[1:]): return True
+        return False
 
 s = Solution()
-print (s.detectCapitalUse("g"))
+print (s.detectCapitalUse("flag"))
