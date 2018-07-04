@@ -1,12 +1,10 @@
-class Solution():
-    def reverseString(self,s):
-        reversed_string = ""
-        length = len(s)-1
-        while length>=0:
-            reversed_string+=s[length]
-            length-=1
-        return reversed_string
-
+class Solution:
+    def reverseString(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        return s[::-1]
 
 s = Solution()
 print(s.reverseString(("Hello")))
