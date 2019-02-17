@@ -21,7 +21,6 @@ class LinkedList:
 	def prepend(self, data):
 		if (self.head == None):
 			self.head = Node(data)
-			
 		else:
 			temp = self.head
 			self.head = Node(data)
@@ -40,8 +39,19 @@ class LinkedList:
 		
 		# if value not found, appending data at the end
 		self.append(data)
+		
+	# delete a node
+	def deleteNode(self, data):
+		current = self.head
+		while (current):
+			t = current.next
+			if t.data == data:
+				current.next = t.next
+				return
+			current = current.next
 	
 	def printLinkedList(self):
+		print ("Printing Linked List")
 		current = self.head
 		while (current):
 			print(current.data)
@@ -56,4 +66,7 @@ linked_list.prepend(8)
 linked_list.insertAfterValue(8,10)
 linked_list.append(7)
 linked_list.insertAfterValue(7,11)
+linked_list.printLinkedList()
+linked_list.deleteNode(11)
+linked_list.append(8)
 linked_list.printLinkedList()
