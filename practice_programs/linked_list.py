@@ -110,6 +110,46 @@ class LinkedList:
 			fast_pointer = fast_pointer.next.next
 			slow_pointer = slow_pointer.next
 		return slow_pointer.data
+		
+	def isLinkedListPalindrome(self):
+		current = self.head
+		data_values = list()
+		while(current):
+			data_values.append(current.data)
+			current = current.next
+		
+		return True if data_values == data_values[::-1] else False
+		
+	# 2 -> 2 -> 3 -> 4 -> 4 -> 5 -> 8 -> 8 -> 9
+	def removeDuplicatesSorted(self):
+		current = self.head
+		previous_data = ''
+		while(current):
+			if current.data != previous_data:
+				original_node = current
+				previous_data = current.data
+				current = current.next
+			else:
+				original_node.next = current.next
+				current = current.next
+		return self.head
+				
+	# 8 -> 3 -> 2 -> 4
+	# next -> 3, 8 -> None, prev -> 8, current -> 3
+	# next -> 2, 3 -> 8, prev -> 3, current -> 2
+	# next -> 4, 2 -> 3, prev -> 2, current -> 4
+	# next -> None, 4 -> 2, prev -> 4, current -> None
+	# head -> 4 -> 2 -> 3 -> 8 -> None
+	def reverseLinkedList(self):
+		current = self.head
+		prev = next = None
+		while (current):
+			next = current.next
+			current.next = prev
+			prev = current
+			current = next
+		self.head = prev
+		
 	
 	def printLinkedList(self):
 		print ("Printing Linked List")
@@ -138,3 +178,19 @@ print("Linked List get index of data 8: ", linked_list.getIndexOfNode(10))
 print("Linked List get element at index 2: ", linked_list.getNodeAtPosition(2))
 print("Linked List get element at 3rd position from end: ", linked_list.getNthNodeFromEnd(3))
 print("Middle element of Linked List: ", linked_list.getMiddleOfLinkedList())
+print("Is Linked List Palindrome: ", linked_list.isLinkedListPalindrome())
+linked_list_2 = LinkedList()
+linked_list_2.append(3)
+linked_list_2.append(3)
+linked_list_2.append(3)
+linked_list_2.append(4)
+linked_list_2.append(4)
+linked_list_2.append(6)
+linked_list_2.append(7)
+linked_list_2.append(7)
+linked_list_2.append(8)
+linked_list_2.printLinkedList()
+linked_list_2.removeDuplicatesSorted()
+linked_list_2.printLinkedList()
+linked_list_2.reverseLinkedList()
+linked_list_2.printLinkedList()
