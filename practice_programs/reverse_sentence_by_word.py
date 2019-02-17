@@ -1,5 +1,6 @@
 # The sky is blue
 # blue is sky the
+# with no extra space variable used
 
 class Solution:
 	def reverseSentenceByWord(self, s):
