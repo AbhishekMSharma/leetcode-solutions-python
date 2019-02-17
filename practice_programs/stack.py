@@ -26,6 +26,13 @@ class myStack:
 			print ("Empty stack")
 		else:
 			print (self.top.data)
+			
+	def traverse(self):
+		print ("Traversing stack")
+		current = self.top
+		while current:
+			print (current.data)
+			current = current.next
 
 		
 s = myStack()
@@ -38,3 +45,6 @@ s.push(8)
 s.peek()
 s.pop()
 s.peek()
+s.push(1)
+s.push(7)
+s.traverse()
